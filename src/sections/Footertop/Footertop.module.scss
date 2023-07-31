@@ -1,0 +1,82 @@
+@import "../../components/Navbarmain/media-queries.module" ;
+
+.footerUp {
+    position: relative;
+    background: #F7FAFE;
+    border-radius: 16px;
+    .textAreaFooterUp {
+        padding: 50px 100px;
+        @include md {
+            padding: 50px 80px;
+        }
+        @include tablet{
+            padding: 50px 10px;
+        }
+        @include mobile{
+            padding: 50px 2px;
+        }
+    }
+    .topImg{
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-400%, 0%);
+        @include tablet{
+            position: static;
+            display: none;
+        }
+        @include mobile{
+            position: static;
+            display: none;
+        }
+    }
+    .leftImg{
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        @include tablet{
+            position: static;
+            display: none;
+        }
+        @include mobile{
+            position: static;
+            display: none;
+        }
+    }
+    .rightImg{
+        position: absolute;
+        top: 80%;
+        right: 0%;
+        transform: translate(30%, -50%);
+        @include tablet{
+            position: static;
+            display: none;
+        }
+        @include mobile{
+            position: static;
+            display: none;
+        }
+    }
+    .footerupBtn {
+        background: #B00000;
+        border-radius: 8px !important;
+        border: 1px solid #B00000;
+        padding: 0.5rem 1rem ;
+    }
+    .txtfooterUp {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 5rem;
+        @include md {
+            font-size: 48px;
+            line-height: 4rem;
+        }
+        @include tablet {
+            font-size: 36px;
+            line-height: 3rem;
+        }
+
+    }
+}
+

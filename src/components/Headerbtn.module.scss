@@ -1,0 +1,9 @@
+@import '../components/Navbarmain/media-queries.module';
+
+.headerbtnprop{
+    @include tablet{
+        margin-left: 0 !important;
+        margin-top: 1rem !important;
+        width: 70%;
+    }
+}

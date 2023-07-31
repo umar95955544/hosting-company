@@ -1,0 +1,29 @@
+@import "../../components/Navbarmain/media-queries.module" ;
+
+
+
+.sliderHeading {
+    font-weight: 800;
+    font-size: 48px;
+    padding-right: 1rem;
+    @include md{
+        padding-right: 0rem;
+    }
+    @include tablet{
+        font-size: 42px;
+        padding-right: 0rem;
+    }
+}
+
+.sliderP{
+    padding-right: 10rem;
+    @include large{
+        padding-right: 0rem;
+    }
+    @include md{
+        padding-right: 0rem;
+    }
+    @include tablet{
+        padding-right: 0rem;
+    }
+}

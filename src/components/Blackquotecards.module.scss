@@ -1,0 +1,13 @@
+@import '../components/Navbarmain/media-queries.module';
+
+.mainCard {
+    @include md{
+        margin: 0 !important;
+        margin: 0 !important;
+        margin-top: 3rem !important;
+    }
+    @include tablet{
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+}

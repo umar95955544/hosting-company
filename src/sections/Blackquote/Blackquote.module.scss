@@ -1,0 +1,41 @@
+@import '../../components/Navbarmain/media-queries.module';
+
+
+.quoteContainer{
+    position: relative;
+    @include tablet {
+        position: static;
+    }
+    .imgQuote{
+        @include tablet {
+            display: none;
+        }
+    }
+}
+.cardLeftTop{
+    @include md{
+        margin-bottom: 9rem;
+    }
+
+    @include tablet{
+        margin-bottom: 0rem;
+    }
+}
+.quoteHeadLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(105px, 60px);
+    & span {
+        font-weight: 800;
+    font-size: 44px;  
+        @include tablet {
+            font-size: 36px;
+        }
+    }
+    @include tablet {
+        position: static;
+        transform: translate(0%, 0%);
+        text-align: center;
+    }
+}

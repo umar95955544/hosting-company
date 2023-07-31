@@ -1,0 +1,10 @@
+@import "../../components/Navbarmain/media-queries.module" ;
+
+@include tablet{
+    .imunify {
+        padding-top: 2rem;
+    }
+    .litespeed{
+        padding-top: 2rem;
+    }
+}

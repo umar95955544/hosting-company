@@ -1,0 +1,24 @@
+@import "./media-queries.module" ;
+
+.navbarService {
+    border-bottom: 2px solid #B00000;
+    
+    @include md{
+        border-bottom: none;
+    }
+    @include tablet{
+        border-bottom: none;
+    }
+    @include mobile{
+        border-bottom: none;
+    }
+}
+
+.blackLink {
+    color: black !important;
+    
+}
+.accountLink{
+    color: black !important;
+    border-right: 1px solid #DAD8D8;
+}

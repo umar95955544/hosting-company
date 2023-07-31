@@ -1,0 +1,43 @@
+@import '../../components/Navbarmain/media-queries.module';
+
+.navTabOne {
+  font-weight: 700;
+  font-size: 64px;
+  color: #2E2E2E;
+  line-height: 1.2;
+  @include tablet{
+    font-size: 40px;
+  }
+}
+
+/* Herosection.css */
+
+.navHead {
+  border: 0 !important;
+  border-bottom: 1px solid #D6D4D4E0 !important;
+  color: #D6D4D4E0 !important;
+}
+.bannerImg{
+  @include md{
+    padding-top: 4rem;
+  }
+  @include tablet{
+    padding-top: 4rem;
+  }
+}
+
+.btnHero{
+  display: flex;
+
+  @include md{
+    justify-content: center;
+  }
+  @include tablet{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.active {
+  color: #B00000 !important;
+  border-bottom: 1px solid #B00000 !important;
+}
